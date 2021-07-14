@@ -6,7 +6,7 @@ heroImage: https://hatom.gitee.io/hatom-assets/hatom2-cli/logo.png
 heroText: Hatom应用开发
 tagline: Hatom移动应用开发
 actionText: 快速上手 →
-actionLink: /ProductIntroduction/production-introduction
+actionLink: /product-introduction/production-introduction
 features:
 - title: 效率至上
   details: 技能要求少，开发APP只需1个工程师 & 1套前端代码。

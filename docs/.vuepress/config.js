@@ -16,221 +16,220 @@ module.exports = {
     sidebar: [
       {
         title: "产品介绍",
-        source: "PrdInfo",
         collapsable: false,
         sidebarDepth: 1,
-        path: "/ProductIntroduction/production-introduction"
+        path: "/product-introduction/production-introduction"
       },
       {
         title: "快速上手",
-        source: "QuickStart",
+        sidebarDepth: 1,
         collapsable: false,
-        path: "/QuickStart/quick-start"
+        path: "/quick-start/quick-start"
       },
       {
         title: "应用构建",
-        source: "AppBuild",
-        path: "/AppBuild/app-build",
+        sidebarDepth: 2,
+        path: "/app-build/app-build",
         children: [
           {
             title: "应用创建",
             collapsable: false,
-            source: "ApplicationCreate",
-            path: "/AppBuild/application-create"
+            sidebarDepth: 1,
+            path: "/app-build/application-create"
           },
           {
             title: "应用编辑",
-            source: "ApplicationConfig",
+            sidebarDepth: 1,
             collapsable: false,
-            path: "/AppBuild/application-config"
+            path: "/app-build/application-config"
           },
           {
             title: "云编译",
             collapsable: false,
-            source: "CloudCompile",
-            path: "/AppBuild/cloud-compile"
+            sidebarDepth: 1,
+            path: "/app-build/cloud-compile"
           }
         ]
       },
       {
         title: "H5应用开发",
-        source: "H5Developer",
-        path: "/H5Developer/H5-developer",
+        sidebarDepth: 2,
+        path: "/h5-developer/H5-developer",
         children: [
           {
             title: "hatom2-cli脚手架",
             collapsable: false,
-            path: "/H5Developer/H5-cli",
-            source: "H5Cli"
+            path: "/h5-developer/H5-cli",
+            sidebarDepth: 1,
           },
           {
             title: "单页面应用",
             collapsable: false,
-            path: "/H5Developer/H5-spa",
-            source: "SPA"
+            path: "/h5-developer/H5-spa",
+            sidebarDepth: 1,
           },
           {
             title: "多页面应用",
             collapsable: false,
-            path: "/H5Developer/H5-mpa",
-            source: "MPA"
+            path: "/h5-developer/H5-mpa",
+            sidebarDepth: 1,
           },
           {
             title: "H5开发说明",
             collapsable: false,
-            path: "/H5Developer/H5-cli-instruction",
-            source: "H5CliInstruction"
+            path: "/h5-developer/H5-cli-instruction",
+            sidebarDepth: 1,
           }
         ]
       },
       {
         title: "基础插件",
-        source: "H5Api",
-        path: "/H5Developer/H5-api",
+        sidebarDepth: 2,
+        path: "/h5-developer/H5-api",
         children: [
           {
             title: "相机/相册",
             collapsable: false,
-            path: "/H5Developer/API/camera",
-            source: "Camera"
+            path: "/h5-developer/api/camera",
+            sidebarDepth: 1,
           },
           {
             title: "扫二维码",
             collapsable: false,
-            path: "/H5Developer/API/scan",
-            source: "Scan"
+            path: "/h5-developer/api/scan",
+            sidebarDepth: 1,
           },
           {
             title: "地图",
             collapsable: false,
-            path: "/H5Developer/API/map",
-            source: "Maps"
+            path: "/h5-developer/api/map",
+            sidebarDepth: 1,
           },
           {
             title: "存储",
             collapsable: false,
-            path: "/H5Developer/API/storage",
-            source: "Storage"
+            path: "/h5-developer/api/storage",
+            sidebarDepth: 1,
           },
           {
             title: "网络",
             collapsable: false,
-            path: "/H5Developer/API/network",
-            source: "Network"
+            path: "/h5-developer/api/network",
+            sidebarDepth: 1,
           },
           {
             title: "设备屏幕",
             collapsable: false,
-            path: "/H5Developer/API/device",
-            source: "Device"
+            path: "/h5-developer/api/device",
+            sidebarDepth: 1,
           },
           {
             title: "GPS",
             collapsable: false,
-            path: "/H5Developer/API/gps",
-            source: "GPS"
+            path: "/h5-developer/api/gps",
+            sidebarDepth: 1,
           },
           {
             title: "分享",
             collapsable: false,
-            path: "/H5Developer/API/share",
-            source: "Share"
+            path: "/h5-developer/api/share",
+            sidebarDepth: 1,
           },
           {
             title: "状态栏",
             collapsable: false,
-            path: "/H5Developer/API/status-bar",
-            source: "StatusBar"
+            path: "/h5-developer/api/status-bar",
+            sidebarDepth: 1,
           },
           {
             title: "容器",
             collapsable: false,
-            path: "/H5Developer/API/page",
-            source: "Page"
+            path: "/h5-developer/api/page",
+            sidebarDepth: 1,
           },
           {
             title: "路由",
             collapsable: false,
-            path: "/H5Developer/API/router",
-            source: "Router"
+            path: "/h5-developer/api/router",
+            sidebarDepth: 1,
           },
           {
             title: "拨号",
             collapsable: false,
-            path: "/H5Developer/API/phone-call",
-            source: "PhoneCall"
+            path: "/h5-developer/api/phone-call",
+            sidebarDepth: 1,
           },
           {
             title: "登录",
             collapsable: false,
-            path: "/H5Developer/API/root-info",
-            source: "RootInfo"
+            path: "/h5-developer/api/root-info",
+            sidebarDepth: 1,
           },
           {
             title: "消息",
             collapsable: false,
-            path: "/H5Developer/API/message",
-            source: "Message"
+            path: "/h5-developer/api/message",
+            sidebarDepth: 1,
           },
           {
             title: "生命周期",
             collapsable: false,
-            path: "/H5Developer/API/life-cycle",
-            source: "LifeCycle"
+            path: "/h5-developer/api/life-cycle",
+            sidebarDepth: 1,
           },
           {
             title: "其他接口",
             collapsable: false,
-            path: "/H5Developer/API/other",
-            source: "Other"
+            path: "/h5-developer/api/other",
+            sidebarDepth: 1,
           }
         ]
       },
       {
         title: "开发调试",
-        path: "/H5Developer/H5-debug",
-        source: "H5Debug",
+        path: "/h5-developer/H5-debug",
+        sidebarDepth: 2,
         children: [
           {
             title: "chrome调试",
             collapsable: false,
-            path: "/H5Developer/chrome-debug",
-            source: "ChromeDebug"
+            path: "/h5-developer/chrome-debug",
+            sidebarDepth: 1,
           },
           {
             title: "真机调试",
             collapsable: false,
-            path: "/H5Developer/device-debug",
-            source: "DeviceDebug"
+            path: "/h5-developer/device-debug",
+            sidebarDepth: 1,
           }
         ]
       },
       {
         title: "开发案例",
-        source: "Example",
+        sidebarDepth: 2,
         path: "/example/example",
         children: [
           {
             title: "案例一",
-            source: "Example1",
+            sidebarDepth: 1,
             collapsable: false,
             path: "/example/example1"
           },
           {
             title: "案例二",
             collapsable: false,
-            source: "Example2",
+            sidebarDepth: 1,
             path: "/example/example2"
           },
           {
             title: "案例三",
-            source: "Example3",
+            sidebarDepth: 1,
             collapsable: false,
             path: "/example/example3"
           },
           {
             title: "案例四",
-            source: "Example4",
+            sidebarDepth: 1,
             collapsable: false,
             path: "/example/example4"
           }
@@ -239,7 +238,7 @@ module.exports = {
       {
         title: "常见问题",
         collapsable: false,
-        source: "problem1",
+        sidebarDepth: "problem1",
         path: "problem1"
       }
     ], // 侧边栏配置

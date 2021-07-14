@@ -5,11 +5,11 @@
 
 ## 1、一般步骤
 
-### 	<1> [应用创建](./helpDocument?source=ApplicationCreate)
+### 	[应用创建](./helpDocument?source=ApplicationCreate)
 
-### 	<2> [应用编辑](./helpDocument?source=ApplicationConfig)
+### 	[应用编辑](./helpDocument?source=ApplicationConfig)
 
-### 	<2> [云编译](./helpDocument?source=CloudCompile)
+### 	[云编译](./helpDocument?source=CloudCompile)
 
 ## 2、构建流程概览
 
