@@ -14,8 +14,8 @@
 ## 2、配置应用证书及信息
 
 创建完成后，配置应用信息.
-[Android证书帮助](./helpDocument?source=AndroidCertificate)
-[iOS证书帮助](./helpDocument?source=IosCertificate)
+[Android证书帮助](../app-build/certificate-android)
+[iOS证书帮助](../app-build/certificate-ios)
 
 <div align="left"">
   <img width="600px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/QuickStart/images/simple-02.png" alt="Markdown" style="border: 6px solid #EAECEF;"/>
@@ -69,7 +69,7 @@
 </div>
 
 
-3、若用户有自己开发的 H5应用功能或类似需求可参考[H5应用组件开发指南](./helpDocument?source=H5Developer)。
+3、若用户有自己开发的 H5应用功能或类似需求可参考[H5应用组件开发指南](../app-build/app-build.md)。
 
 <div align="left">
   <img width="600px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/QuickStart/images/simple-07.png" alt="Markdown" style="border: 6px solid #EAECEF;"/>

@@ -1,34 +1,34 @@
-## API使用
+## api使用
 
 
-### 1. [打开相机相册](./API/camera)
+### 1. [打开相机相册](./api/camera)
 
-### 2. [扫码二维码](./API/scan)
+### 2. [扫码二维码](./api/scan)
 
-### 3. [跳转地图](./API/map)
+### 3. [跳转地图](./api/map)
 
-### 4. [本地存储](./API/storage)
+### 4. [本地存储](./api/storage)
 
-### 5. [网络状态](./API/network)
+### 5. [网络状态](./api/network)
 
-### 6. [设备屏幕信息](./API/device)
+### 6. [设备屏幕信息](./api/device)
   
-### 7. [GPS](./API/gps)
+### 7. [GPS](./api/gps)
 
-### 8. [分享](./API/share)
+### 8. [分享](./api/share)
 
-### 9. [状态栏](./API/status-bar)
+### 9. [状态栏](./api/status-bar)
 
-### 10. [容器操](./API/page)
+### 10. [容器操](./api/page)
 
-### 11. [路由](./API/router)
+### 11. [路由](./api/router)
 
-### 12. [拨号](./API/phone-call)
+### 12. [拨号](./api/phone-call)
 
-### 13. [登录](./API/root-info)
+### 13. [登录](./api/root-info)
 
-### 14. [消息](./API/message)
+### 14. [消息](./api/message)
  
-### 15. [生命周期](./API/life-cycle)
+### 15. [生命周期](./api/life-cycle)
 
-### 16. [其他接口](./API/other)
+### 16. [其他接口](./api/other)

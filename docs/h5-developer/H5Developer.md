@@ -35,4 +35,4 @@ hatom2-cli脚手架工具提供了一组灵活的交互命令，可以通过命�
 
 ## 2、组件开发
 ### 	<1>、[脚手架功能特性](./helpDocument?source=H5-cli-instruction)
-### 	<2>、 [API](./helpDocument?source=H5-api)
+### 	<2>、 [api](./helpDocument?source=H5-api)

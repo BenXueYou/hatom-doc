@@ -11,7 +11,7 @@
 
 ## 配置H5资源包
 点击上传H5应用组件包，导入开发好的H5组件包，组件包需要使用 hatom2-cli 脚手架开发并打包为 zip 格式压缩包。
-[H5应用组件包开发指南](../H5Developer/H5-developer.md)
+[H5应用组件包开发指南](../h5-developer/H5-developer.md)
 
 
 ## 配置组件
