@@ -1,6 +1,6 @@
-### 获取设备屏幕信息
+### 获取设备信息
 
-#### 异步获取设备屏幕信息
+#### 异步获取设备信息
 
 使用示例：
 ```
@@ -22,7 +22,7 @@ hatom.getScreenInfo(res => {
 | code  | String | 返回码  0表示成功 |
 | message  | String | 返回值 json 字符串|
 
-&nbsp;
+json字符串通过JSON.parse(message)转为对象, 参数如下所示：
 
 | 参数   | 类型   | 描述         |
 | ---------- | -------- | --------------- |
@@ -34,6 +34,8 @@ hatom.getScreenInfo(res => {
 | screenHeight       | String | 设备屏幕高度      |
 | appScreenWidth       | String | 应用屏幕宽度      |
 | appScreenHeight       | String | 应用屏幕高度 appScreenHeight=screenHeight-statusBarHeight    |
+| clientMAC       | String | 设备mac地址    |
+| clientIP       | String | 设备IP    |
 
 &nbsp;
 

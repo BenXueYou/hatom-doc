@@ -12,7 +12,7 @@
   
 
 #### 2、拓扑结构：
-
+<br/>
 <div align="left">
   <img width="600px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/example/images/image.png" alt="Markdown" style="border:6px solid #eaecef"/>
 </div>
@@ -79,7 +79,7 @@ _this.$isMobile() ? app.init() : app.onReady()
 ##### 3.4、H5应用开发完毕、`npm run build` 打包，在平台上，进入应用详情页，点击上传H5资源包
 
 ##### 3.5、点击云编译，打包生成成果物，下载成果物生成APK，安装APK：
-
+<br/>
 <div align="left">
   <img src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/example/images/Screenshot_20210623_135722_xyy.com.xy.jpg" alt="Markdown" style="zoom:33%;border:6px solid #eaecef"/>
 </div>
@@ -93,7 +93,7 @@ _this.$isMobile() ? app.init() : app.onReady()
 ##### 4.3、运行`npm install`,安装依赖。`npm run build` 打包，在平台上，进入应用详情页，点击上传H5资源包
 
 ##### 4.4、点击云编译，打包生成成果物，下载成果物生成APK，安装APK：
-
+<br/>
 <div align="left">
   <img src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/example/images/Screenshot_20210623_140253_com.hatom.demo.jpg" alt="Markdown" style="zoom:33%;border:6px solid #eaecef"/>
 </div>

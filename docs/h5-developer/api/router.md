@@ -88,6 +88,27 @@ Vue.use(Hatom, { router })
 
 
 
+#### 跳转原生页面
+
+  使用示例:
+  ```javascript
+  const uri = "APP原生路由";
+  const data = {
+    params: {},
+    target: `native:/${uri}`
+  };
+  hatom.page.pushPage(data);
+  ```
+  参数说明：
+
+| 参数   | 类型 | 必填 | 描述     |
+| -------- | ---- | ----- | -------- |
+| params | Object | 否 | 跳转函数的携带参数 |
+| target | String | 是 | 由包名以及页面的类名拼接的跳转uri |
+| uri | String | 是 | APP原生路由 |
+
+
+
   #### 跳转第三方应用
 
   使用示例:
@@ -101,6 +122,9 @@ Vue.use(Hatom, { router })
   /** 跳转到包名为packageName的应用 */
   hatom.page.pushPage(data);
   ```
+> 当传入pageClassName 则跳转第三方应用指定页面 <br/>
+> 不传pageClassName 则跳转自动跳转到应用的首页 <br/> 
+
   参数说明：
 
 | 参数   | 类型 | 必填 | 描述     |
@@ -108,31 +132,7 @@ Vue.use(Hatom, { router })
 | params | Object | 否 | 跳转函数的携带参数 |
 | target | String | 是 | 由包名拼接的跳转uri |
 | packageName | String | 是 | 第三方应用的包名 |
-  #### 跳转第三方应用指定页面
-
-
-  使用示例:
-  ```javascript
-// 第三方应用的包名
-  const packageName = "ezviz.ezopensdk";
-// 第三方应用的指定页的类名
-  const pageClassName = 'com.videogo.MainActivity'
-  const data = {
-    params: {},
-    target: `native:/${packageName}/${pageClassName}`
-  };
-  /** 跳转到包名为packageName的应用中，页的类名为pageClassName的页面 */
-  hatom.page.pushPage(data);
-  ```
-  参数说明：
-
-| 参数   | 类型 | 必填 | 描述     |
-| -------- | ---- | ----- | -------- |
-| params | Object | 否 | 跳转函数的携带参数 |
-| target | String | 是 | 由包名以及页面的类名拼接的跳转uri |
-| packageName | String | 是 | 第三方应用的包名 |
 | pageClassName | String | 否 | 指定页的类名, 可不传，不传类名则自动跳转到应用的首页 |
 
-> 1、包名以及需要跳转的页面类名，需要找第三方开发人员对接。
-
+> 1、包名以及需要跳转的页面类名，需要找第三方开发人员对接。<br/>
 > 2、iOS跳转第三方应用的uri需要找应用开放的uri配置链接。

@@ -22,8 +22,8 @@
 ### 2.打包后的服务地址
 
 打包后的服务地分为两种情况：
-1、使用hatom平台的isee/ifar/云曜登录组件
-2、不使用平台任何登录组件，自定义登录页面
+> 使用hatom平台的isee/ifar/云曜登录组件 <br />
+> 不使用平台任何登录组件，自定义H5登录页面
 
 #### 2.1.使用hatom平台的isee/ifar/云曜登录组件
 使用登录组件之后，打包之后的应用APP，安装打开之后会默认进入原生的登录页面，登录页登录会输入用户名密码以及登录地址，登录验证之后会创建一个webView来加载前端页面，hatom插件的接口获取当前的的登录信息以及服务地址
@@ -32,7 +32,7 @@
   <img width="300px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/AppBuild/images/app-service-address.png" alt="Markdown" style="border: 6px solid #EAECEF;"/>
 </div>
 
-> 获取服务地址请参考平台组件说明
+> 获取服务地址请参考平台组件说明或[参考示例](../example/example1)
 
 #### 2.2.自定义登录
 不使用平台任何登录组件/自定义登录页面，打包之后意味着APP的服务地址时不变的，需要在工程目录下找到config/constant.js文件, 配置SERVER字段的服务地址
@@ -47,7 +47,7 @@ export default {
 }
 ```
 
-### 3关于静态资源的引入
+### 3 关于静态资源的引入
 
 在开发中，往往会引入第三方的静态资源：
 
@@ -113,7 +113,7 @@ export default {
           "zh": "一键开门",
           "en": "openDoor",
         },
-        "menuIcon": "icon.png", // 菜单的图标
+        "menuIcon": "icon.png", // 菜单的图标 (96*96 px)
         "menuPath": "index.html#/openDoor"
       },
     ]

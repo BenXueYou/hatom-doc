@@ -13,12 +13,14 @@
 使用hatom2-cli脚手架多页面模板，在一个工程内开发，打包之后会产生多个html页面[多页面应用开发文档](../h5-developer/H5-mpa)
 
 #### 3、多页面应用场景一：
+<br/>
 
 <div align="left">
   <img width="600px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/example/images/image3.png" alt="Markdown" style="border:6px solid #eaecef"/>
 </div>
 
 #### 4、多页面应用场景二：
+<br/>
 
 <div align="left">
   <img width="600px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/example/images/image4.png" alt="Markdown" style="zoom:80%;border:6px solid #eaecef"/>
