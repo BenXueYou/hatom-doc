@@ -199,9 +199,9 @@ PC端的分页是采用页码的形式，而移动端多采用上拉加载、下
 
 src/layouts/layout1.vue:
 
-```
+```html
 <template>
-  <keep-alive :include='whiteList' :exclue='blackList'>
+  <keep-alive :include="whiteList" :exclue="blackList">
     <router-view></router-view>
   </keep-alive>
 </template>

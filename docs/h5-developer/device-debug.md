@@ -117,7 +117,7 @@ npm run debug
     4.3、云编译和扫码安装
 
     点击云编译等待编译成功后，扫码安装
-    <font color=red size=4>注：编译需要等待大概7-8分钟</font>
+    <font color=red size=4>注：编译需要等待大概2-3分钟</font>
     <div align="left">
      <img src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/QuickStart/images/云编译.png" style="zoom:50%; border:6px solid #eaecef"/>
     </div>
