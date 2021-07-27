@@ -14,8 +14,8 @@
 ## 2、配置应用证书及信息
 
 创建完成后，配置应用信息.
-[Android证书帮助](../app-build/certificate-android)
-[iOS证书帮助](../app-build/certificate-ios)
+[Android证书帮助](../app-build/certificate-android.md)
+[iOS证书帮助](../app-build/certificate-ios.md)
 
 <div align="left"">
   <img width="600px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/QuickStart/images/simple-02.png" alt="Markdown" style="border: 6px solid #EAECEF;"/>

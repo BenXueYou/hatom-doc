@@ -32,7 +32,7 @@
   <img width="300px" src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/AppBuild/images/app-service-address.png" alt="Markdown" style="border: 6px solid #EAECEF;"/>
 </div>
 
-> 获取服务地址请参考平台组件说明或[参考示例](../example/example1)
+> 获取服务地址请参考平台组件说明或[参考示例](../example/example1.md)
 
 #### 2.2.自定义登录
 不使用平台任何登录组件/自定义登录页面，打包之后意味着APP的服务地址时不变的，需要在工程目录下找到config/constant.js文件, 配置SERVER字段的服务地址

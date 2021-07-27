@@ -49,8 +49,8 @@ hatom init <template> <project>
 * [mpa-demo](https://gitee.com/hatom/hatom-mpa-demo) —— 基于mpa-tpl模板搭建的多页应用demo
 
 > 模板使用示例见
-> [单页面应用](./helpDocument?source=H5-spa)
-> [多页面应用](./helpDocument?source=H5-mpa)
+> [单页面应用](./H5-spa.md)
+> [多页面应用](./H5-mpa.md)
 
 ## 使用规范
 
@@ -371,7 +371,7 @@ vue支持hash和history两种模式的路由配置，但基于某些原因，hat
 
 * webApp.json 是app的相关设置，具体参数可以说明可以参考<a href="#cli-9">webApp.json</a>
 
-<span id="cli-9"></span>
+<span id="cli-10"></span>
 
 #### webApp.json
 webApp.json文件是应用相关的设置，一般在脚手架生成项目时与package.json保持一致，但也可以手动进行设置，相关参数为：

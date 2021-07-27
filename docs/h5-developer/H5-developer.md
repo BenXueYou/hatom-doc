@@ -30,7 +30,7 @@
 * 可选择的eslint、stylelint，更好的规范代码
   
 ## hatom-cli脚手架应用开发
-### [脚手架安装、介绍](./H5-cli)
-### [单页面应用](./H5-spa)
-### [多页面应用](./H5-mpa)
-### [应用开发说明](./H5-cli-instruction)
+### [脚手架安装、介绍](./H5-cli.md)
+### [单页面应用](./H5-spa.md)
+### [多页面应用](./H5-mpa.md)
+### [应用开发说明](./H5-cli-instruction.md)

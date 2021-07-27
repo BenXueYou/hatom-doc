@@ -53,8 +53,8 @@
 ### 证书配置
 
 用于配置应用的打包证书，可以上传现有证书，或者一键创建证书  
-[Android证书帮助](./certificate-android)
-[iOS证书帮助](./certificate-ios)
+[Android证书帮助](./certificate-android.md)
+[iOS证书帮助](./certificate-ios.md)
 
 <div align="left">
   <img src="https://infocloud-hatom.oss-cn-hangzhou.aliyuncs.com/hatom/doc/resource/AppBuild/images/app-create-6.png" alt="Markdown" style="border:6px solid #eaecef"/>

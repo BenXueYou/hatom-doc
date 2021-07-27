@@ -5,11 +5,11 @@
 
 ## 1、一般步骤
 
-### 	[应用创建](./application-create)
+### 	[应用创建](./application-create.md)
 
-### 	[应用编辑](./application-config)
+### 	[应用编辑](./application-config.md)
 
-### 	[云编译](./cloud-compile)
+### 	[云编译](./cloud-compile.md)
 
 ## 2、构建流程概览
 
