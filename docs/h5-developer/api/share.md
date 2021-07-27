@@ -2,7 +2,7 @@
 
 #### 分享文本
 使用示例
-```
+```javascript
   hatom.shareText((res) => {
     // 分享结果
    },
@@ -38,7 +38,7 @@ options 说明：
 
 #### 分享图片
 使用示例
-```
+```javascript
   hatom.sharePic((res) => {
     // 分享结果
   },

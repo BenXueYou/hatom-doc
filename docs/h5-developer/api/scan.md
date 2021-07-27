@@ -2,7 +2,7 @@
 
   使用示例：
 
-  ```
+  ```javascript
   hatom.scan(res => {
     const message = JSON.parse(res.message)
     console.log(message);

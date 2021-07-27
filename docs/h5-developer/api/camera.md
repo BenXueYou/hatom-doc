@@ -4,7 +4,7 @@
 
   使用示例：
 
-  ```
+  ```javascript
     hatom.camera(res => {
       console.log(res.message)
     }, {

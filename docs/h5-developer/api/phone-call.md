@@ -1,7 +1,7 @@
 ### 拨号
 
   使用示例：
-  ```
+  ```javascript
   hatom.phoneCall(res => {
     // 通话情况
   }, {

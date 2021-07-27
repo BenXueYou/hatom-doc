@@ -6,7 +6,7 @@
 
 使用示例：
 
-```
+```javascript
 hatom.rootInfo.getRootInfo(res => {
   const data = JSON.parse(res.message);
   console.log(data);

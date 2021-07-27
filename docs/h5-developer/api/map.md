@@ -1,7 +1,7 @@
 ### 跳转地图
 
   使用示例：
-  ```
+  ```javascript
     let params = {
       coordType: "WGS84",
       latitude: "31.311381",

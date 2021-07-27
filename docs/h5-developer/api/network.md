@@ -1,6 +1,6 @@
 ### 网络状态
   使用示例：
-  ```
+  ```javascript
   hatom.networkManager(res => {
     /** 根据返回信息message判断当前网络状态 */
     console.log(res.message);

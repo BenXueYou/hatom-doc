@@ -1,7 +1,7 @@
 ### 设置顶部状态栏模式
 
   使用示例：
-  ```
+  ```javascript
   hatom.statusBar.setStatusBarMode({
     iconMode: 'dark'
   },

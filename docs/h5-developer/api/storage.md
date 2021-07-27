@@ -4,7 +4,7 @@
 
 使用示例：
 
-```
+```javascript
 let key = "company";
 let value = "hikvision";
 /** 传参均为字符串，value可传json字符串 */

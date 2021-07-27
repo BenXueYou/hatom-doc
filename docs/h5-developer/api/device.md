@@ -3,7 +3,7 @@
 #### 异步获取设备信息
 
 使用示例：
-```
+```javascript
 hatom.getScreenInfo(res => {
     console.log(res.message);
 })
@@ -42,7 +42,7 @@ json字符串通过JSON.parse(message)转为对象, 参数如下所示：
 #### 同步获取设备屏幕信息，返回promise对象
 
 使用示例一
-```
+```javascript
 async getSyncScreenInfo () {
   const res = await hatom.getSyncScreenInfo();
   const screenInfo = JSON.parse(res.message);
@@ -51,7 +51,7 @@ async getSyncScreenInfo () {
 ```
 使用示例二
 
-```
+```javascript
 hatom.getSyncScreenInfo().then(res=>{
   const screenInfo = JSON.parse(res.message);
   console.log(screenInfo);

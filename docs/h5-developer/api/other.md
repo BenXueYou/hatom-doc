@@ -27,7 +27,7 @@
 
 使用示例：
 
-```
+```javascript
   hatom.native('Plugin.funcName', (res) => {
     console.log(res);
   }, params )
