@@ -52,6 +52,7 @@ export default {
 在开发中，往往会引入第三方的静态资源：
 
 1、引入第三方js文件
+
 2、向外提供静态资源图片
 
 #### 3.1.引入第三方js文件
@@ -76,6 +77,34 @@ export default {
     script.setAttribute('type', 'text/javascript')
     script.setAttribute('src', 'sdk.js')
     document.getElementsByTagName('head')[0].appendChild(script)
+```
+
+当外部资源初始化需要在vue实例化之前，为保证js加载完全
+
+```javascript
+  const initScript = (url, onload, onerror) => {
+    const script = document.createElement('script')
+    script.src = url
+    script.onload = onload
+    script.onerror = onerror
+    document.head.appendChild(script)
+  }
+
+  const app = {
+    init: function () {
+      /** 是否在开发环境下，开启调试模式 */
+      process.env.NODE_ENV === 'development' && new Vconsole()
+      initScript('sdk.js', ()=>{
+        this.onReady()
+      }, (err)=>{
+        console.log(err)
+      })
+    },
+    onReady: () => new Vue({
+      router, store, render: (h) => h(App)
+    }).$mount('#app')
+  }
+
 ```
 
 
